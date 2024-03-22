@@ -10,3 +10,4 @@ C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\De
 C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\refint\PokeclickerDatalayer.dll
 C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.pdb
 C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\ref\PokeclickerDatalayer.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.sourcelink.json

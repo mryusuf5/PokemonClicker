@@ -1,16 +1,17 @@
-@model PokemonClickerClassLibrary.Player;
+@model GameViewModel;
 
 <div class="row g-0" style="height: 100%">
     <div class="col-3 border border-primary" style="height: 100%">
         <div class="d-flex flex-column">
             <a href="#" class="card w-100">
                 <div class="card-body">
+                    <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy pokemon</button>
                 </div>
             </a>
             <a class="card w-100">
                 <div class="card-body">
                     <form action="@Url.Action("SaveData", "Home")" method="post">
-                        <input type="text" value="@Model.points" name="points" id="playerPointsHidden" hidden>
+                        <input type="text" value="@Model.Player.points" name="points" id="playerPointsHidden" hidden>
                         <input type="submit" class="btn btn-primary w-100" value="Save game">
                     </form>
                 </div>
@@ -18,13 +19,42 @@
         </div>
     </div>
     <div class="col" style="height: 100%;">
-        <h4>Welcome @Model.username</h4>
         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-            <h3 id="counter">@Model.points</h3>
+            <h4>Welcome @Model.Player.username</h4>
+            <h3 id="counter">@Model.Player.points</h3>
+            
             <img src="~/images/pokeball.png" alt="" id="pokeBall">
         </div>
     </div>
     <div class="col-3 border border-primary h-100" style="height: 100%">
-        asd
+        @foreach (var pokemon in Model.Pokemons)
+        {
+            <h3>@pokemon.name</h3>
+        }
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Buy pokemon</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row gap-2 justify-content-center">
+                    @foreach (var pokemon in Model.Pokemons)
+                    {
+                        <div class="card col-sm-3 col-10">
+                            <div class="card-title">@pokemon.name</div>
+                            <div class="card-body">
+                                <img style="object-fit: contain; height: 100%; width: 100%" src="@pokemon.image" alt="">
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary w-100">Buy</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+

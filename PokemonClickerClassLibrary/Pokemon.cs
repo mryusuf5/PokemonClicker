@@ -1,4 +1,6 @@
-﻿namespace PokemonClickerClassLibrary;
+﻿using PokeclickerDatalayer;
+
+namespace PokemonClickerClassLibrary;
 
 public class Pokemon
 {
@@ -27,5 +29,28 @@ public class Pokemon
         {
             _level = value;
         }
+    }
+
+    public string image;
+
+    public Pokemon(string name, string image)
+    {
+        this.name = name;
+        this.image = image;
+    }
+
+    public static List<Pokemon> GetPokemons()
+    {
+        var pokemonData = DatabaseLogic.ExecuteQuery($"SELECT * FROM pokemons");
+        List<Pokemon> pokemons = new List<Pokemon>();
+        
+        foreach (var pokemon in pokemonData)
+        {
+            pokemon.TryGetValue("name", out object name);
+            pokemon.TryGetValue("image", out object image);
+            pokemons.Add(new Pokemon(name as string, image as string));
+        }
+
+        return pokemons;
     }
 }

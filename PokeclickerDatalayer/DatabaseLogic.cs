@@ -19,19 +19,31 @@ public static class DatabaseLogic
         connection = new MySqlConnection(configuration.GetConnectionString("DefaultConnection"));
     }
 
-    public static List<IDictionary<string, object>> ExecuteQuery(string query, bool isUpdate = false)
+    public static List<IDictionary<string, object>>? ExecuteQuery(string query)
     {
         List<IDictionary<string, object>> results = new List<IDictionary<string, object>>();
         MySqlCommand command = new MySqlCommand(query, connection);
+        
         connection.Open();
         
-        MySqlDataReader reader = command.ExecuteReader();
+        MySqlDataReader reader = null;
+        try
+        {
+            reader = command.ExecuteReader();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            connection.Close(); 
+            return null;
+        }
         
         while (reader.Read())
         {
             var result = new Dictionary<string, object>();
             for (int i = 0; i < reader.FieldCount; i++)
             {
+                
                 result.Add(reader.GetName(i), reader.GetValue(i));
             }
             results.Add(result);
@@ -39,24 +51,5 @@ public static class DatabaseLogic
 
         connection.Close();
         return results;
-    }
-
-    public static object? ExecuteSql(string sql, object? obj = null, string[]? objectParams = null, bool isUpdate = false)
-    {
-        MySqlCommand command = new MySqlCommand(sql, connection);
-        connection.Open();
-        
-        if (isUpdate)
-        {
-            command.ExecuteNonQuery();
-            
-            return null;
-        }
-        else
-        {
-           MySqlDataReader reader = command.ExecuteReader();
-           
-           return reader;
-        }
     }
 }

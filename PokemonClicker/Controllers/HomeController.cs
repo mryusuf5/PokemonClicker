@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using MySql.Data.MySqlClient;
 using PokeclickerDatalayer;
 using PokemonClicker.Models;
@@ -20,8 +21,22 @@ public class HomeController : Controller
         connection = new MySqlConnection(connectionString);
     }
 
+    public override void OnActionExecuting(ActionExecutingContext context)
+    {
+        if (!HttpContext.Session.TryGetValue("user", out _))
+        {
+            context.Result = new RedirectToRouteResult(new RouteValueDictionary{{ "controller", "Login" },  
+                { "action", "Index" }  
+  
+            });  
+        }
+        
+        base.OnActionExecuting(context);
+    }
+
     public IActionResult Index()
     {
+        
         return View();
     }
 
@@ -36,36 +51,15 @@ public class HomeController : Controller
 
     public IActionResult Game()
     {
-        Player player = new Player();
-        var data = DatabaseLogic.ExecuteQuery("SELECT * FROM player WHERE id = 1");
-
-        data[0].TryGetValue("username", out object username);
-        player.username = username as string;
-        
         ViewData["success"] = TempData["success"];
         connection.Close();
+
         
-        return View(player);
-    }
-
-    public IActionResult Login()
-    {
-        return View();
-    }
-
-    public IActionResult LoginPost(string username, string password)
-    {
-        Player player = new Player();
-        MySqlCommand command = new MySqlCommand("SELECT * FROM player WHERE player_id = 1", connection);
-        MySqlDataReader reader = command.ExecuteReader();
-
-        while (reader.Read())
-        {
-            player.username = reader["username"].ToString();
-            player.password = reader["password"].ToString();
-        }
+        var GameViewModel = new GameViewModel();
+        GameViewModel.Player = Player.GetPlayer("mryusuf");
+        GameViewModel.Pokemons = Pokemon.GetPokemons();
         
-        return RedirectToAction("Game");
+        return View(GameViewModel);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

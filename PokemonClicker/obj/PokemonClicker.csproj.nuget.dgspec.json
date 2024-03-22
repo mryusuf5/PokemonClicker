@@ -94,7 +94,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj": {
+                "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
