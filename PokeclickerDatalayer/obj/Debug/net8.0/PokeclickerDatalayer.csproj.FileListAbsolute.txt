@@ -1,0 +1,12 @@
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\bin\Debug\net8.0\PokeclickerDatalayer.deps.json
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\bin\Debug\net8.0\PokeclickerDatalayer.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\bin\Debug\net8.0\PokeclickerDatalayer.pdb
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.AssemblyInfoInputs.cache
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.AssemblyInfo.cs
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\refint\PokeclickerDatalayer.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\PokeclickerDatalayer.pdb
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\obj\Debug\net8.0\ref\PokeclickerDatalayer.dll

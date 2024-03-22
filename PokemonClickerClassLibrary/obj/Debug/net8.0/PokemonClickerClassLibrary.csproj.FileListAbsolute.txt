@@ -1,0 +1,11 @@
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\bin\Debug\net8.0\PokemonClickerClassLibrary.deps.json
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\bin\Debug\net8.0\PokemonClickerClassLibrary.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\bin\Debug\net8.0\PokemonClickerClassLibrary.pdb
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\PokemonClickerClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\PokemonClickerClassLibrary.AssemblyInfoInputs.cache
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\PokemonClickerClassLibrary.AssemblyInfo.cs
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\PokemonClickerClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\PokemonClickerClassLibrary.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\refint\PokemonClickerClassLibrary.dll
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\PokemonClickerClassLibrary.pdb
+C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokemonClickerClassLibrary\obj\Debug\net8.0\ref\PokemonClickerClassLibrary.dll

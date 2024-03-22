@@ -1,0 +1,30 @@
+@model PokemonClickerClassLibrary.Player;
+
+<div class="row g-0" style="height: 100%">
+    <div class="col-3 border border-primary" style="height: 100%">
+        <div class="d-flex flex-column">
+            <a href="#" class="card w-100">
+                <div class="card-body">
+                </div>
+            </a>
+            <a class="card w-100">
+                <div class="card-body">
+                    <form action="@Url.Action("SaveData", "Home")" method="post">
+                        <input type="text" value="@Model.points" name="points" id="playerPointsHidden" hidden>
+                        <input type="submit" class="btn btn-primary w-100" value="Save game">
+                    </form>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col" style="height: 100%;">
+        <h4>Welcome @Model.username</h4>
+        <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
+            <h3 id="counter">@Model.points</h3>
+            <img src="~/images/pokeball.png" alt="" id="pokeBall">
+        </div>
+    </div>
+    <div class="col-3 border border-primary h-100" style="height: 100%">
+        asd
+    </div>
+</div>
