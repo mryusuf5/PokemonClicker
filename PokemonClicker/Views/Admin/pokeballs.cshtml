@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model AdminViewModel;
+
+<div class="col-12">
+    <div class="card p-2">
+        <h3>All pokeballs</h3>
+        <div class="card-body row gap-2 justify-content-around">
+            @foreach (var pokeball in Model.Pokeballs)
+            {
+                <div class="card col-2 border border-primary">
+                    <div class="card-body">
+                        <img src="~/images/pokeballs/@pokeball._image" class="w-100">
+                        <h4 class="mt-2 d-flex justify-content-between">
+                            <span>@pokeball._name</span>
+                            <span class="d-flex align-items-center"><img src="~/images/coin.gif" width="15">@pokeball._price</span>
+                        </h4>
+                        <h4>Catch rate: @pokeball._catchRate</h4>
+                    </div>
+                    <div class="card-footer">
+                        <form action="@Url.Action("DeletePokeball", "Admin")" method="post" class="confirmForm">
+                            <input type="text" value="@pokeball._id" hidden name="id">
+                            <input type="submit" value="Delete @pokeball._name" class="btn btn-danger w-100">
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+

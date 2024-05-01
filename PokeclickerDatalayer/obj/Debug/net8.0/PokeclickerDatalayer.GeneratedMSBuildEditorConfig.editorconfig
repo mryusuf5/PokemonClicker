@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PokeclickerDatalayer
-build_property.ProjectDir = C:\Users\yusuf\Desktop\programming\c#\PokemonClicker\PokeclickerDatalayer\
+build_property.ProjectDir = E:\programming\c#\PokemonClicker\PokeclickerDatalayer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

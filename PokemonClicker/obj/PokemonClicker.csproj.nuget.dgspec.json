@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj": {}
+    "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj": {
+    "E:\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj",
+        "projectUniqueName": "E:\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj",
         "projectName": "PokeclickerDatalayer",
-        "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj",
+        "projectPath": "E:\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\obj\\",
+        "outputPath": "E:\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj": {
+                "projectPath": "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -70,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj": {
+    "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj",
+        "projectUniqueName": "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj",
         "projectName": "PokemonClickerClassLibrary",
-        "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj",
+        "projectPath": "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\obj\\",
+        "outputPath": "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,11 +98,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj": {
-                "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj": {
+    "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj",
+        "projectUniqueName": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj",
         "projectName": "PokemonClicker",
-        "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj",
+        "projectPath": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\PokemonClicker.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\obj\\",
+        "outputPath": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,11 +155,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj": {
-                "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj"
+              "E:\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj": {
+                "projectPath": "E:\\programming\\c#\\PokemonClicker\\PokeclickerDatalayer\\PokeclickerDatalayer.csproj"
               },
-              "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj"
+              "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj": {
+                "projectPath": "E:\\programming\\c#\\PokemonClicker\\PokemonClickerClassLibrary\\PokemonClickerClassLibrary.csproj"
               }
             }
           }
@@ -173,6 +173,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,60 +1,58 @@
-﻿using PokeclickerDatalayer;
+﻿namespace PokemonClickerClassLibrary;
 
-namespace PokemonClickerClassLibrary;
-
-public class Player
+public interface IPlayer
 {
-    private int _points;
-    public int playerId = 1;
-    public string username;
-    public string password;
+    public List<Player>? GetPlayer(string loginusername);
+    public Player MapToPlayer(IDictionary<string, object> result);
+    public void RegisterPlayer(string username, string password);
 
-    public int points
+    public void UpdatePlayerPoints(int points, int? playerId);
+
+    public List<Player>? GetPlayers();
+};
+
+public class Player: IPlayer
+{
+    private readonly IPlayer _playerInterface;
+    
+    public int? _points;
+    public int? _playerId;
+    public string _username;
+    public string _password;
+    public int? _isAdmin;
+    
+
+    public Player(string username, int? points, int? isAdmin, string password, int? playerId)
     {
-        get
-        {
-            return _points;
-        }
-        set
-        {
-            _points = value;
-        }
+        _isAdmin = isAdmin;
+        _points = points;
+        _username = username;
+        _password = password;
+        _playerId = playerId;
     }
 
-    private float _multiplier;
-
-    public float multiplier
+    public List<Player>? GetPlayer(string loginusername)
     {
-        get
-        {
-            return _multiplier;
-        }
-        set
-        {
-            _multiplier = value;
-        }
+        return _playerInterface.GetPlayer(loginusername);
     }
 
-    public static Player? GetPlayer(string loginusername)
+    public Player MapToPlayer(IDictionary<string, object> result)
     {
-        Player player = new Player();
-        
-        var data = DatabaseLogic.ExecuteQuery($"SELECT * FROM player WHERE username = '{loginusername}'");
+        return new Player("asd", 12, 1, "asd", 1);
+    }
 
-        if (data == null)
-        {
-            return null;
-        }
-
-        data[0].TryGetValue("username", out object name);
-        player.username = name as string;
+    public void RegisterPlayer(string username, string password)
+    {
         
-        data[0].TryGetValue("points", out object points);
-        player.points = (int)points;
-        
-        data[0].TryGetValue("password", out object password);
-        player.password = password as string;
+    }
 
-        return player;
+    public void UpdatePlayerPoints(int points, int? playerId)
+    {
+        
+    }
+
+    public List<Player> GetPlayers()
+    {
+        return _playerInterface.GetPlayers();
     }
 }

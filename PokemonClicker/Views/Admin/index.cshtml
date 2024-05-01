@@ -1,0 +1,101 @@
+@{
+    Layout = "_AdminLayout";
+}
+
+@model AdminViewModel;
+
+<div class="col-12 mb-4">
+    <div class="card p-2">
+        <h3>Pokeballs</h3>
+        <div class="card-body">
+            <form action="@Url.Action("CreatePokeball", "Admin")" class="row g-2 justify-content-around" method="post" enctype="multipart/form-data">
+                <h5 class="col-12">Add pokeballs</h5>
+                <div class="form-floating col-4">
+                    <input placeholder="Name" name="name" type="text" class="form-control">
+                    <label>Name</label>
+                </div>
+                <div class="form-floating col-4">
+                    <input placeholder="Price" name="price" type="number" class="form-control">
+                    <label>Price</label>
+                </div>
+                <div class="form-floating col-4">
+                    <input placeholder="Price" name="catchRate" type="number" class="form-control">
+                    <label>Catch rate</label>
+                </div>
+                <div class="form-group col-4">
+                    <label>Image</label>
+                    <input class="form-control" name="image" type="file">
+                </div>
+                <div class="col-12">
+                    <input type="submit" value="Save" class="btn btn-primary">
+                </div>
+            </form>
+            <hr>
+            <div class="row justify-content-between">
+                @foreach (var pokeball in Model.Pokeballs)
+                {
+                    <div class="card col-2 p-2 border border-primary">
+                        <img src="~/images/pokeballs/@pokeball._image" class="w-100">
+                        <hr>
+                        <form action="@Url.Action("DeletePokeball", "Admin")" method="post" class="confirmForm">
+                            <input type="text" value="@pokeball._id" hidden name="id">
+                            <input type="submit" value="Delete @pokeball._name" class="btn btn-danger w-100">
+                        </form>
+                    </div>
+                }
+                <span class="col-12 mt-2">
+                    <a href="@Url.Action("Pokeballs", "Admin")" class="btn btn-primary">See all balls</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="card p-2">
+        <h3>Users</h3>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Points</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var player in Model.Players)
+                {
+                    <tr>
+                        <td>@player._playerId</td>
+                        <td>@player._username</td>
+                        <td class="playerPoints" id="@player._points" data-playerid="@player._playerId">
+                            @player._points
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+    
+</div>
+
+<script>
+    const playerPoints = document.querySelectorAll(".playerPoints");
+    
+    playerPoints.forEach((playerPoint) => {
+        let points = playerPoint.id;
+        let id = playerPoint.dataset.playerid;
+        playerPoint.addEventListener("dblclick", (e) => {
+            playerPoint.innerHTML = `
+                <form action="@Url.Action("SaveData", "Home")" class="d-flex gap-2">
+                    <input type="text" value="${id}" name="playerId" hidden>
+                    <input type="text" value="1" name="fromAdminPanel" hidden>
+                    <input type="text" value="${points}" class="form-control" name="points" />
+                    <input type="submit" value="save" class="btn btn-primary">
+                </form>
+            `;
+            
+        })
+    })
+</script>

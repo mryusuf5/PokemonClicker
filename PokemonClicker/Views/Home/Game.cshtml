@@ -1,60 +1,190 @@
+@using PokemonClickerClassLibrary
 @model GameViewModel;
+
+@{
+    var groupedPokeballs = Model.PlayerPokeballs
+        .GroupBy(p => new { p._name, p._image, p._catchRate, p._id})
+        .Select(g => new { Pokeball = g.Key, Count = g.Count()})
+        .ToList();
+}
 
 <div class="row g-0" style="height: 100%">
     <div class="col-3 border border-primary" style="height: 100%">
-        <div class="d-flex flex-column">
-            <a href="#" class="card w-100">
-                <div class="card-body">
-                    <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy pokemon</button>
-                </div>
-            </a>
-            <a class="card w-100">
-                <div class="card-body">
-                    <form action="@Url.Action("SaveData", "Home")" method="post">
-                        <input type="text" value="@Model.Player.points" name="points" id="playerPointsHidden" hidden>
-                        <input type="submit" class="btn btn-primary w-100" value="Save game">
-                    </form>
-                </div>
-            </a>
+        <div class="d-flex flex-column justify-content-between h-100">
+            <div class="d-flex flex-column">
+                <a class="card w-100">
+                    <div class="card-body">
+                        <form action="@Url.Action("SaveData", "Home")" method="post">
+                            <input type="text" value="@Model.Player._points" hidden name="points" id="playerPointsHidden">
+                            <input type="submit" class="btn btn-primary w-100" value="Save game">
+                        </form>
+                    </div>
+                </a>
+                <a href="#" class="card w-100">
+                    <div class="card-body">
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#battlePokemonShopModal">Battle pokemon</button>
+                    </div>
+                </a>
+                <a href="#" class="card w-100">
+                    <div class="card-body">
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#pokeballShopModal">Pokeball shop</button>
+                    </div>
+                </a>
+            </div>
+            
+            <div>
+                @if (Model.Player._isAdmin == 1)
+                {
+                    <a href="@Url.Action("index", "Admin")" class="card w-100">
+                        <div class="card-body">
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#pokeballShopModal">Admin page</button>
+                        </div>
+                    </a>
+                }
+                <a href="@Url.Action("logout", "login")" class="card w-100">
+                    <div class="card-body">
+                        <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#pokeballShopModal">Logout</button>
+                    </div>
+                </a>
+            </div>
+            
         </div>
     </div>
     <div class="col" style="height: 100%;">
         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-            <h4>Welcome @Model.Player.username</h4>
-            <h3 id="counter">@Model.Player.points</h3>
+            <h4>Welcome @Model.Player._username</h4>
+            <h3 class="d-flex align-items-center gap-2"><img width="25" src="~/images/coin.gif" alt=""><span id="counter">@Model.Player._points</span></h3>
             
             <img src="~/images/pokeball.png" alt="" id="pokeBall">
         </div>
     </div>
-    <div class="col-3 border border-primary h-100" style="height: 100%">
-        @foreach (var pokemon in Model.Pokemons)
-        {
-            <h3>@pokemon.name</h3>
-        }
+    <div class="col-3 border border-primary h-100 p-2" style="height: 100%">
+        <div class="card p-2">
+            <div class="card-title">
+                My pokemon
+            </div>
+            <div class="card-body d-flex gap-3 flex-wrap justify-content-between" style="height: 600px; overflow: auto">
+                @foreach (var pokemon in Model.Pokemons)
+                {
+                    <div class="card p-2 position-relative rounded d-flex flex-column align-items-center" style="height: 180px;">
+                        <img width="100" height="100" style="object-fit: contain" src="@pokemon._image" alt="">
+                        <hr class="w-100">
+                        <span class="text-center">@if (@pokemon._name.IndexOf("-") != -1)
+                                                  {
+                                                      @pokemon._name.Substring(0, @pokemon._name.IndexOf("-"));
+                                                  }
+                                                  else
+                                                  {
+                                                      @pokemon._name; } - @pokemon._level</span>
+                    </div>
+                }
+            </div>
+        </div>
+        <hr>
+        <div class="card p-2">
+            <div class="card-title">
+                My pokeballs
+            </div>
+            <div class="card-body d-flex gap-3 flex-wrap justify-content-between" style="height: 200px; overflow: auto">
+                @foreach (var pokeball in groupedPokeballs)
+                {
+                    <div class="card p-2 position-relative rounded d-flex flex-column align-items-center" style="height: 130px">
+                        <img width="58" src="~/images/pokeballs/@pokeball.Pokeball._image" alt="">
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            @pokeball.Count
+                        </span>
+                        <hr class="w-100">
+                        <span class="text-center">@pokeball.Pokeball._name</span>
+                    </div>
+                }
+            </div>
+        </div>
+
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1">
+    
+    <div class="modal fade" id="battlePokemonShopModal" tabindex="-1">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Buy pokemon</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Battle pokemon</h1>
+                    <button type="button" id="closeBattlePokemonShopModal" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row gap-2 justify-content-center" id="pokemonStoreContainer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="pokeballShopModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Buy pokeballs</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body row gap-2 justify-content-center">
-                    @foreach (var pokemon in Model.Pokemons)
+                <div class="modal-body row gap-2 justify-content-center" id="">
+                    @foreach (var pokeball in Model.Pokeballs)
                     {
-                        <div class="card col-sm-3 col-10">
-                            <div class="card-title">@pokemon.name</div>
+                        <form class="card col-2" action="@Url.Action("BuyPokeball")" method="post">
+                            <input type="text" hidde name="ballId" value="@pokeball._id" hidden>
                             <div class="card-body">
-                                <img style="object-fit: contain; height: 100%; width: 100%" src="@pokemon.image" alt="">
+                                <img src="~/images/pokeballs/@pokeball._image" class="w-100">
+                                <h4>@pokeball._name</h4>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary w-100">Buy</a>
+                                <button type="submit" class="btn btn-primary d-flex align-items-center justify-content-center">
+                                    Buy&nbsp;<img width="15" src="~/images/coin.gif">@pokeball._price
+                                </button>
                             </div>
-                        </div>
+                        </form>
                     }
                 </div>
             </div>
         </div>
     </div>
+    
+    <div class="modal fade" id="battlePokemonModal" tabindex="-1">
+        <div class="modal-dialog" style="min-width: 100vw !important; margin: 0 !important;">
+            <div class="modal-content" style="min-height: 100vh !important;">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Battle pokemon</h1>
+                </div>
+                <div class="modal-body row gap-2 justify-content-center position-relative" id="pokemonStoreContainer">
+                    <div id="pokemonBattleTimer" class="position-absolute fs-2" style="left: 10%;">100</div>
+                    <div id="pokemonHealthContainer" class="position-absolute" style="height: 75px; border: solid 1px black; left: 50%; top: 10%; transform: translate(-50%, -50%)">
+                        <div class="bg-success" id="pokemonHealth" style="height: 73px; margin-left: -12px;"></div>
+                    </div>
+                    <h3 id="pokemonLevel" class="position-absolute" style="left: 50%; top: 2%; transform: translate(-5%, -10%)">0</h3>
+                    <img src="~/images/bg.webp" width="100%" style="max-height: 600px;">
+                    <img id="battlePokemonImage" src="~/images/pokeball.png" class="position-absolute" style="top: 50%; left: 50%; width: 200px !important; transform: translate(-50%, -50%)">
+                    <div class="card d-none" id="throwablePokeballs">
+                        <div class="card-body d-flex gap-3 flex-wrap justify-content-center"> 
+                            @foreach (var pokeball in groupedPokeballs)
+                            {
+                                <form action="@Url.Action("CatchPokemon", "Home")" method="post" class="card p-2 position-relative rounded d-flex flex-column align-items-center">
+                                    <img width="58" src="~/images/pokeballs/@pokeball.Pokeball._image" alt="">
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                        @pokeball.Count
+                                    </span>
+                                    <hr class="w-100">
+                                    <span class="text-center">@pokeball.Pokeball._name</span>
+                                    <input type="text" value="" name="pokemonName" class="battlePokemonName" hidden>
+                                    <input type="text" value="" name="level" class="battlePokemonLevel" hidden>
+                                    <input type="text" value="" name="pokemonImage" class="battlePokemonImageInput" hidden>
+                                    <input type="text" value="" name="pokemonCatchRate" class="battlePokemonCatchRate" hidden>
+                                    <input type="text" class="battlePokemonStats" value="1" name="battlePokemonStats" hidden>
+                                    <input type="text" value="@pokeball.Pokeball._catchRate" name="pokeballCatchRate" hidden>
+                                    <input type="text" value="@pokeball.Pokeball._id" name="ballId" hidden>
+                                    <input type="text" hidden value="@pokeball.Pokeball._name" name="pokeballName">
+                                    <button type="submit" class="btn btn-primary mt-2">Use</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </div>
-

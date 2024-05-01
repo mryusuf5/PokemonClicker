@@ -1,255 +1,479 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PokemonClicker.bundle.scp.css",
-      "PackagePath": "staticwebassets\\PokemonClicker.bundle.scp.css"
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\css\\core.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\css\\site.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\admin\\css\\theme-default.css"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\js\\config.js"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.js"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\admin\\js\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\favicon.ico",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeball.png",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\cgiball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\cgiball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\cherishball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\cherishball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\fireball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\fireball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\ghostball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\ghostball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\grassball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\grassball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\greatball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\greatball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\groundball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\groundball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\iceball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\iceball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\luxuryball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\luxuryball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\masterball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\masterball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\pokeball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\pokeball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\steelball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\steelball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\ultraball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\ultraball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\balls\\waterball.png",
+      "PackagePath": "staticwebassets\\images\\balls\\waterball.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\bg.png",
+      "PackagePath": "staticwebassets\\images\\bg.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\bg.webp",
+      "PackagePath": "staticwebassets\\images\\bg.webp"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\coin.gif",
+      "PackagePath": "staticwebassets\\images\\coin.gif"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeball.png",
       "PackagePath": "staticwebassets\\images\\pokeball.png"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\js\\main.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\084049bd-4699-4774-b872-e2f1a2a71888.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\084049bd-4699-4774-b872-e2f1a2a71888.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\09806682-b153-4040-87cd-fccc6d686402.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\09806682-b153-4040-87cd-fccc6d686402.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\0a9dbc98-4f35-422e-997f-ec92a8072587.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\0a9dbc98-4f35-422e-997f-ec92a8072587.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\293a9bc8-a575-4545-b86a-8df99a9d55cb.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\293a9bc8-a575-4545-b86a-8df99a9d55cb.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\2ce6fbde-85d8-451d-a537-18821db5e9af.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\2ce6fbde-85d8-451d-a537-18821db5e9af.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\2eb48598-755e-4ea6-805e-4a02798b542e.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\2eb48598-755e-4ea6-805e-4a02798b542e.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\325befc0-ae3a-42b2-ad61-592804f89f65.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\325befc0-ae3a-42b2-ad61-592804f89f65.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\3f20973e-848a-4e40-bc46-a5d2e8c78a66.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\3f20973e-848a-4e40-bc46-a5d2e8c78a66.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\454b9dde-135d-4f20-8417-eced5988a244.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\454b9dde-135d-4f20-8417-eced5988a244.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\4738c975-ede2-4683-b87f-7e0f892d83f5.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\4738c975-ede2-4683-b87f-7e0f892d83f5.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\4876272a-0a7e-456f-bebb-062d7efb3a81.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\4876272a-0a7e-456f-bebb-062d7efb3a81.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\4e6de324-87a7-4dcf-8969-61700667ceb9.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\4e6de324-87a7-4dcf-8969-61700667ceb9.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\4e7ed534-16b7-416c-bc48-cb24a912971b.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\4e7ed534-16b7-416c-bc48-cb24a912971b.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\5b4ad916-3643-4d0b-8c3f-cdbb6eddce23.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\5b4ad916-3643-4d0b-8c3f-cdbb6eddce23.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\684b2b4b-7eff-4bd3-a04d-81a8ac912c70.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\684b2b4b-7eff-4bd3-a04d-81a8ac912c70.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\6d98f581-f0f7-4c9d-8c5d-41341e4cca36.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\6d98f581-f0f7-4c9d-8c5d-41341e4cca36.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\757e448a-5619-468c-9611-449c1451701b.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\757e448a-5619-468c-9611-449c1451701b.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\7f2ac73a-59a5-40de-8102-3e95a3434636.jpg",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\7f2ac73a-59a5-40de-8102-3e95a3434636.jpg"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\85fb2321-463b-46a0-a281-34a80306606a.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\85fb2321-463b-46a0-a281-34a80306606a.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\8e06f763-5866-4540-9e13-7afbdb9fce9e.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\8e06f763-5866-4540-9e13-7afbdb9fce9e.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\8e5a0ec6-4826-425a-9db5-80d5aef9a5d6.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\8e5a0ec6-4826-425a-9db5-80d5aef9a5d6.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\9257bbb6-fb4a-4a57-a891-eb0ae0c0f44c.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\9257bbb6-fb4a-4a57-a891-eb0ae0c0f44c.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\ac1acc8c-319e-4f68-8750-b7dbdc152204.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\ac1acc8c-319e-4f68-8750-b7dbdc152204.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\addc6ec8-2d35-42b4-83cf-fa9a2e320dad.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\addc6ec8-2d35-42b4-83cf-fa9a2e320dad.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\bc54557d-e4ec-4826-a594-8aa479f243e1.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\bc54557d-e4ec-4826-a594-8aa479f243e1.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\c3539b4f-d8b1-4c0b-b78f-a798258d4037.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\c3539b4f-d8b1-4c0b-b78f-a798258d4037.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\d2b1414c-5efd-4b08-b8e5-5e7f2e6d75a3.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\d2b1414c-5efd-4b08-b8e5-5e7f2e6d75a3.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\d7c7607f-0899-443d-9b3f-81b26cbe9d54.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\d7c7607f-0899-443d-9b3f-81b26cbe9d54.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\ead5a541-eb8e-4787-9f18-999e63fecee4.jpg",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\ead5a541-eb8e-4787-9f18-999e63fecee4.jpg"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\f3e23aff-4d75-459d-8527-cd6f795e0b2d.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\f3e23aff-4d75-459d-8527-cd6f795e0b2d.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\f49f5f20-040d-40ea-a5d3-fa848fa9221a.jpg",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\f49f5f20-040d-40ea-a5d3-fa848fa9221a.jpg"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\images\\pokeballs\\fc3fcbf0-978d-46d2-8c21-c61611b3a18f.png",
+      "PackagePath": "staticwebassets\\images\\pokeballs\\fc3fcbf0-978d-46d2-8c21-c61611b3a18f.png"
+    },
+    {
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\js\\site.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\programming\\c#\\PokemonClicker\\PokemonClicker\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
